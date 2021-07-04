@@ -32,60 +32,55 @@ body{
 
 
 
-
 .logo{
-    width: 196px;
-    height: 56px;
-
     font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
-
-    color: #57dee7;
+    font-size: 3rem;
+    padding: 10px 20px;
+    color: rgb(113, 192, 192);
 }
+
 .content{
-    grid-area: 2/ 3 /  2 /  3;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    flex-direction: column;
-}
-.content .text{
-        align-items: center;
-        justify-content: center;
-}
-.content h1{
-    
-    height: 40%;
-    font-family: Roboto;
-    font-weight:700;
-    color: white;
+    height: 180px;
+    transform: translateY(100%);
 }
 #city_input{
-    font-family: Roboto;
-    font-weight:700;
-    font-size: 12px;
-    background: rgba(61, 87, 107, 0.643);
-    border:none;
     outline:none;
-    border-radius: 11px;
-    height: 7vh;
-    width: 80%;
-    color: white;
-    font-size: 1.3rem;
-    text-align: center;
-}
-#submit_city{
-    font-family: Roboto;
-    font-weight:400;
-    
-    color: white;
-    font-size: 1.4rem;
-    height: 7vh;
-    width: 30%;
-    background: #2C698D;
-    border-radius: 10px;
+    height: 2.5rem;
+    background-color: rgba(252, 253, 253, 0.144);
+    width: 52%;
     border: none;
+    border-radius: 11px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+#submit_city{
+    background-color: rgb(66, 114, 114);
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    outline:none;
+    height: 2.5rem;
+    border: none;
+    border-radius: 11px;
+    width: 10%;
+}
+
+.text{
+    color: white;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size:1.2rem;
 }
